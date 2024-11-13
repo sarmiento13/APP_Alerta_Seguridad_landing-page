@@ -1,7 +1,7 @@
 import reflex as rx
 from .componentes.navbar import navbar
 from .componentes.seccion import seccion
-def index()->rx.componentes:
+def index()->rx.components:
   return rx.vstack(
     navbar(),
     seccion(),
@@ -11,4 +11,3 @@ def index()->rx.componentes:
   )
 app=rx.App()
 app.add_page(index)
-

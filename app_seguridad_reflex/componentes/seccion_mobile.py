@@ -1,22 +1,22 @@
 import reflex as rx
-from ..components.mi_button import mi_button_p
+from ..componentes.mi_button import mi_button_p
 def seccion_mobile()->rx.Component:
   return rx.mobile_and_tablet(
     rx.heading(
-      "tu seguridad es primero",
+      "Tu compañero para un entorno mas seguro",
       color="#eff9ff",
       size="8",
       align="center"
     ),
     rx.heading(
-      "con ",
-      rx.text.em("Up Skill",color="#92dafe"),
+      " ",
+      rx.text.em("Secure Path",color="#92dafe"),
       color="#eff9ff",
       size="9",
       align="center"
     ),
     rx.hstack(
-      rx.text(rx.text.em("Upskill",color="#92dafe",weight="bold")," mi app de suridad te ayuda en distintos formas ",size="5",color="#eff9ff",text_align="center"),
+      rx.text(rx.text.em("Secure Path",color="#92dafe",weight="bold")," (camino seguro) Una herramienta que te ayuda a sentirte mas  seguro en tu dia a dia. Te avisa sobre posibles peligros en tu zona, te ayuda a planificar rutas seguras y consejos para prevenir delitos.    ",size="5",color="#eff9ff",text_align="center"),
     ),
     rx.vstack(
       rx.link(mi_button_p("user","Inicia Sesion"),href="/login"),

@@ -4,7 +4,7 @@ def navbar()->rx.Component:
   return rx.box(
     rx.desktop_only(
       rx.hstack(
-        rx.heading("UpSkill",color="#eff9ff"),
+        rx.heading("SecurePath",color="#eff9ff"),
         rx.hstack(
           rx.link(
             rx.icon("youtube",color="#eff9ff")
@@ -26,7 +26,7 @@ def navbar()->rx.Component:
     ),
     rx.mobile_and_tablet(
       rx.hstack(
-        rx.heading("UpSkill",color="#eff9ff"),
+        rx.heading("SecurePath",color="#eff9ff"),
         rx.hstack(
           rx.link(
             mi_button_s("user","Iniciar Sesion"),
