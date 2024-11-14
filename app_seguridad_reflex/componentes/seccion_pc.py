@@ -10,7 +10,7 @@ def seccion_pc()->rx.Component:
     ),
     rx.heading(
       "",
-      rx.text.em("Secure Path",color="#92dafe"),
+      rx.text.em("Secure Path",color="gold"),
       color="#eff9ff",
       size="9",
       align="center"
@@ -18,7 +18,7 @@ def seccion_pc()->rx.Component:
     rx.hstack(
       rx.text(rx.text.em("Secure Path",color="#92dafe",weight="bold"),"  (camino seguro) Una herramienta que te ayuda a sentirte mas  seguro en tu dia a dia. Te avisa sobre posibles peligros en tu zona, te ayuda a planificar rutas seguras y consejos para prevenir delitos.     ",size="5",color="#eff9ff",width="70vw"),
       rx.box(
-        rx.image(src="/img_seccion.png",alt="Imagen de app"),
+        rx.image(src="MI_LOGO",alt="Imagen de app"),
         width="30vw"
       ),
       align="center"

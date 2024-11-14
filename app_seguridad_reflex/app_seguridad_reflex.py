@@ -5,9 +5,10 @@ def index()->rx.components:
   return rx.vstack(
     navbar(),
     seccion(),
-    bg="#1d5cb0",
+    bg="#b4efff",
     height="100vh",
     align="center"
   )
 app=rx.App()
 app.add_page(index)
+
